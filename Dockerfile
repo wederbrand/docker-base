@@ -1,6 +1,6 @@
 # VERSION               1.1
 
-FROM ubuntu:14:04
+FROM ubuntu:14.04
 MAINTAINER Andreas Wederbrand andreas@wederbrand.se
 
 # install emacs and apt-get-utilities
