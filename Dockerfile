@@ -5,7 +5,7 @@ MAINTAINER Andreas Wederbrand andreas@wederbrand.se
 
 # install emacs and apt-get-utilities
 RUN apt-get update
-RUN apt-get install -y emacs23-nox software-properties-common python-software-properties curl wget git dig
+RUN apt-get install -y emacs23-nox software-properties-common python-software-properties curl wget git dnsutil
 
 ENV term xterm
 
